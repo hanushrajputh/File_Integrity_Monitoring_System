@@ -1,5 +1,6 @@
 import os
 import hashlib
+import json 
 import config
 
 def generate_hash(file_path):
