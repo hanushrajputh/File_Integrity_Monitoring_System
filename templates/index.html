@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Integrity Monitoring Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #444;
+            text-align: center;
+        }
+        .log-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .log-entry {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        .log-entry.alert {
+            background-color: #ffcccc;
+            color: #a00;
+        }
+        .log-entry.info {
+            background-color: #ccffcc;
+            color: #006600;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>File Integrity Monitoring Dashboard</h1>
+    <div class="log-container">
+        {% for log in logs %}
+            <div class="log-entry {% if 'ALERT' in log %}alert{% else %}info{% endif %}">
+                {{ log }}
+            </div>
+        {% endfor %}
+    </div>
+
+</body>
+</html>
