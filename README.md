@@ -22,7 +22,7 @@ The **File Integrity Monitoring System (FIMS)** is a real-time security solution
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/File-Integrity-Monitoring-System.git
+   git clone https://github.com/hanushrajputh/File_Integrity_Monitoring_System.git
    cd File-Integrity-Monitoring-System
    ```
 
