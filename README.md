@@ -131,6 +131,9 @@ You can also view a web interface displaying the status of monitored files. To a
 3. **Email Alert**: The system sends an email notification to the configured email address.
 4. **Dashboard Alert**: The web dashboard shows the detected file change with details.
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Contributing
 Feel free to fork this repository, report issues, and make pull requests! Contributions are welcome.
 
