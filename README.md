@@ -30,12 +30,11 @@ hashes (SHA-256), and notifying users through email alerts and a web dashboard.
 - Optional: SQLite (for database-based hash storage)
 
 ## Clone this repository:
-
+```bash
 git clone https://github.com/hanushrajputh/File_Integrity_Monitoring_System.git  
 
 cd File_Integrity_Monitoring_System  
-
-
+```
 ## Install Python Dependencies
 ### Create a Virtual Environment (Optional but Recommended):
 ```bash
